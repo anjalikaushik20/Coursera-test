@@ -39,15 +39,15 @@ nav{
     background-color: white;
 }
 
-.sticky {
+/*.sticky {
   position: fixed;
   top: 0;
   width: 100%;
-}
+}*/
 
 #heading{
   text-decoration-color: black;
-  padding-top: 80px;
+  padding-top: 10px;
   text-decoration: bold;
 }
 
