@@ -1,20 +1,22 @@
-body{
+*{
   box-sizing: border-box;
 }
 
-nav{
-  z-index: 1;
-}
-.navbar-brand h1{
+#title{
   text-align: left;
-  text-decoration-color: #000000;
-  font-weight: bold;
+  color: black;
+  font-weight: bolder;
+  font-size: 1.8em;
+}
+#title:hover{
+  color: white;
 }
 
 #header-nav {
     background-color: gray;
     border-radius: 0;
     border: 0;
+    height: 80px;
 }
 
 #header-nav button {
@@ -51,9 +53,14 @@ nav{
   text-decoration: bold;
 }
 
-#chicken-tile{
+#chicken-tile, #beef-tile, #sushi-tile{
   background-color: lightgray;
   justify-content: center;
+  margin: 10px;
+  overflow: auto;
+}
+#chicken-tile:hover, #beef-tile:hover, #sushi-tile:hover{
+  box-shadow: 0 1px 5px 1px black;
 }
 
 h3{
@@ -63,13 +70,17 @@ h3{
 }
 
 p{
-  padding: 20px;
+  padding: 10px
 }
 
-@media (max-width: 767px) {
+.row{
+  width: 90%;
+}
 
-  .navbar-brand h1{
+#main-content{
+  width: 100%;
+}
 
-  }
-
+#go-back{
+  text-align: right;
 }
