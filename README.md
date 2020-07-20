@@ -1,4 +1,4 @@
-# Courera: HTML, CSS and JavaScript for Web Developers
+# Coursera: HTML, CSS and JavaScript for Web Developers
 
 This is the repository for the course from Coursera, titled 'HTML, CSS and JavaScript for Web Developers'.
 It consists of all the excercises and the assignments for the course.
