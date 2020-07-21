@@ -56,8 +56,7 @@
 #chicken-tile, #beef-tile, #sushi-tile{
   background-color: lightgray;
   justify-content: center;
-  margin: 10px;
-  overflow: auto;
+  /*margin: 10px;*/
 }
 #chicken-tile:hover, #beef-tile:hover, #sushi-tile:hover{
   box-shadow: 0 1px 5px 1px black;
@@ -74,11 +73,11 @@ p{
 }
 
 .row{
-  width: 90%;
+  width: 100%;
 }
 
 #main-content{
-  width: 100%;
+  /*width: 100%;*/
 }
 
 #go-back{
